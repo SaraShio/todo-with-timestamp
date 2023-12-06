@@ -61,7 +61,7 @@ export default function Task(props) {
           </button>
           <div className="task-timestamps">
             <small>
-              Created at: {new Date(task.createdAt).toLocaleString()}
+              Created at: {new Date(task.createdAt).toLocaleString() }
             </small>
             {task.completed ? (
               <small>
